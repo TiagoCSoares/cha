@@ -124,10 +124,12 @@ button:disabled {
 
 .modal-content {
   background: #fff;
-  padding: 24px;
-  border-radius: 12px;
-  max-width: 360px;
-  width: 90%;
+  padding: 28px;
+  border-radius: 14px;
+
+  width: 95%;
+  max-width: 520px;
+
   text-align: center;
 }
 
