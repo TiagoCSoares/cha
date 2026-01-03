@@ -1,3 +1,38 @@
+<!-- Modal Boas-vindas -->
+<div id="modalWelcome" class="modal">
+  <div class="modal-content">
+    <h2>🎁 Chá de Casa Nova Isabela e Tiago</h2>
+    <p>
+      Essa lista é uma sugestão de presentes.<br>
+      Cada imagem possui um link que leva para o site do produto. <br>
+      Após confirmar, ele ficará reservado, para impedir que recebamos presentes repetidos.
+    </p>
+    <button onclick="fecharWelcome()">Entendi</button>
+  </div>
+</div>
+
+<!-- Modal Confirmação -->
+<div id="modalConfirm" class="modal">
+  <div class="modal-content">
+    <h2>Confirmar presente</h2>
+    <p id="presenteSelecionado"></p>
+
+    <input id="nomeModal" placeholder="Seu nome" />
+
+    <div class="modal-actions">
+      <button class="cancel" onclick="fecharConfirm()">Cancelar</button>
+      <button class="confirm" onclick="confirmarReserva()">Confirmar</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -7,8 +42,6 @@
 </head>
 <body>
   <h1>Chá de Casa Nova 🏡</h1>
-
-  <input id="nome" placeholder="Seu nome" />
 
   <div id="lista"></div>
 
